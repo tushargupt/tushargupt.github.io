@@ -1,0 +1,49 @@
+<%- include('./partials/header'); -%>
+<div class="contact">
+<h2>Contact</h2>
+<p>Feel free to contact me for any suggestion, feedback, query or criticism. I like to hear from you.</p>
+<!-- <h3 class="or">or</h3> -->
+<p>Feel I can be good fit for your organisation.?</p>
+<p>Have an interesting idea to work upon.?</p>
+<p>Let's Get In Touch  <img src="https://raw.githubusercontent.com/kartikpandey2/kartikpandey2.github.io/8e7adb02dae642902ba413463d7decbce5d06264/assests/handshake.svg"></p>
+<form id="contact" onsubmit= "return postToGoogle();">
+    <input type="text" name="entry.1445744085" id="name" style="margin-bottom: 1rem;" placeholder="Name"><br>
+    <input type="email" name="entry.933092781" id="email" style="margin-bottom: 1rem;" placeholder="Email"><br>
+    <input type="text" name="entry.2129079558" id="msg" placeholder="Message"><br>
+    <button type="submit" style="margin-bottom: 1.4rem;">Send</button>
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    function postToGoogle() {
+      let field1 = $("#name").val();
+      let field2 = $("#email").val();
+      let field3 = $("#msg").val();
+
+      $.ajax({
+        url: "https://docs.google.com/forms/u/1/d/e/1FAIpQLSe1rovpQAtEYN3rwO67_K1HxPbTD6qRsewtL9YvExffJgYw2Q/formResponse",    
+        data: {
+          "entry.1445744085": field1,
+          "entry.933092781": field2,
+          "entry.2129079558": field3
+        },
+        type: "POST",
+        dataType: "xml",
+        success: function (d) {
+          $('#contact *').fadeOut(2000);
+  				$('#contact').prepend('Your message has been sent...');
+        },
+        error: function (x, y, z) {
+          $('#contact').trigger('reset');
+        }
+      });
+      return false;
+    }
+  </script>
+  <h4>To get a faster reply, I would like you to choose any of the below methods</h4>
+  <a target="_blank" href="https://www.linkedin.com/in/tushar-gupta-ba733a192/"><img src="https://raw.githubusercontent.com/kartikpandey2/kartikpandey2.github.io/8e7adb02dae642902ba413463d7decbce5d06264/assests/linkedin.svg"></a>
+<a  target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=gupta.tushar1620@gmail.com"><img src="https://raw.githubusercontent.com/kartikpandey2/kartikpandey2.github.io/8e7adb02dae642902ba413463d7decbce5d06264/assests/gmail.svg"></a>
+<br>
+</div>
+
+<%- include('./partials/footer'); -%>

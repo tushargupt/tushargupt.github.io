@@ -1,0 +1,482 @@
+body{
+    margin: 0;
+    background-image: url();
+    /* https://arjunsalyan.com/images/black-orchid.png */
+    font-family: 'Montserrat', sans-serif;
+    
+}
+/* TOP NAVIGATION START */
+
+.navbar{
+    background-color: #313131 !important
+}
+.nav > li > a {
+	font-size: 1.35rem !important;
+	line-height: 1.8rem !important;
+	font-weight: 300 !important;
+}
+nav {
+	font-size: 1rem !important;
+	font-weight: 300 !important;
+	font-family: 'Montserrat', sans-serif !important;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.5) !important;
+	height: 60px !important;
+}
+
+nav ul > li.nav-item {
+	border-radius: 5px !important;
+}
+
+nav ul > li.nav-item > a.nav-link {
+	color: #3560fa !important;
+}
+
+nav ul > li.nav-item:hover {
+	border-radius: 5px !important;
+	background-color: #292929 !important;
+}
+
+nav ul > li.nav-item:hover > a.nav-link {
+	color: #6788ff !important;
+}
+.btn{
+    border-color: #4d73ff !important;
+}
+.btn:hover {
+	background-color: #3560fa !important;
+	color: #313131 !important;
+}
+
+/* Footer START*/
+footer{
+    margin: 0;
+    height: 220px;
+    background-color: #352F44;
+}
+footer h3{
+    padding-top: 1.5rem;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-family: 'Vujahday Script', cursive;
+}
+.font{
+    text-align: center;
+    padding-top: 0.3rem;
+    border-radius: 25rem;
+    height: 2.6rem;
+    width: 2.6rem;
+    background-color: #414141;
+    margin: 0 0.6rem;
+}
+svg{
+    color: white;
+    justify-content: center;
+}
+.nav{
+    width: 12rem;
+    margin: 1.4rem auto 1.3rem auto;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
+footer p a{
+    color: #3560fa;
+    font-weight: 700;
+    
+}
+
+/* HOME START */
+.home{
+    margin: 0;
+    color: aliceblue;
+    background-color: #414141;
+    font-family: 'Roboto', sans-serif;
+}
+.home h1{
+    padding-top: 3rem;
+    text-align: center;
+    font-size: 4rem;
+}
+.home p{
+    text-align: center;
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+}
+.home h4{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+.intro{
+    margin-top: 3%;
+    width: 100%;
+    height: 30rem;
+    text-align: left;
+    background-color: #313131;
+    background-image: url(https://arjunsalyan.com/images/black-orchid.png);
+}
+.intro h4{
+    padding-top: 9rem;
+    margin: 2rem auto;
+    width: 52%;
+}
+.intro p{
+    width: 52%;
+    text-align: left;
+    font-size: 1rem;
+    margin: 1.5rem auto;
+}
+.home img{
+    left: 46%;
+    filter: grayscale(70%);
+    border-radius: 50%;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+}
+.home img:hover{
+    cursor: pointer;
+    filter: grayscale(0%);
+}
+.skills{
+    color: aliceblue;
+    height: 68rem;
+    /* background-image: url(https://arjunsalyan.com/images/black-orchid.png) */
+}
+.skills h3{
+    padding-top: 2rem;
+    /* padding-bottom: 1.8rem; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: #E4D3CF;
+}
+.skills h4{
+    color: #F8A488;
+    font-family:'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    padding-bottom: 1.8rem;
+}
+hr{
+    border-style: solid;
+    margin: 0 auto;
+    width: 40%;
+    background-color: #35fa3f;
+}
+.skills h6{
+    font-size: 1.3rem;
+}
+.dvt{
+    background-image: url(https://arjunsalyan.com/images/black-orchid.png);
+    position: relative;
+    text-align: center;
+    background-color: #313131;
+    height: 30rem;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 7px;
+}
+.dvt h4{
+    margin-top: 1.8rem;
+}
+.sft{
+    background-image: url(https://arjunsalyan.com/images/black-orchid.png);
+    position: relative;
+    height: 29rem;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    height: 29rem;
+    background-color: #393E46;
+    margin: 0 auto;
+}
+.sft h4{
+    padding-top: 1.8rem;
+}
+.skills svg{
+   background-color: white;
+   margin-left: 2%;
+   color: black;
+}
+.check{
+    margin-left: 75%;
+    position: absolute;
+    width: 25%;
+    height: 59rem;
+}
+.check1{
+    margin: 0 auto;
+    position: absolute;
+    width: 25%;
+    height: 59rem;
+}
+.checks{
+    height: 20rem;
+    width: 17rem;
+    background-color: #313131;
+    font-family: 'Lota', sans-serif;
+    background-image: url(https://arjunsalyan.com/images/black-orchid.png);
+    margin: 6rem auto 2rem;
+}
+.extrahead{
+    width: 17rem;
+    height: 2.8rem;
+    background-color: #313131;
+}
+.extrahead h4{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    padding-top: 8px;
+}
+.extraul{
+    padding-top: 1rem;
+    padding-left: 1.8rem;
+}
+.extraul li{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(238, 203, 203);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* About Section */
+.about{
+    background-color: white;
+}
+.about h1{
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 3px;
+}
+.about p{
+    margin-top: 0;
+    text-align: center;
+    color: rgb(119, 118, 118);
+    margin-bottom: 5px;
+}
+.about hr{
+    margin-top: 0;
+    width: 66%;
+    height: 2px;
+}
+.aboutm{
+    width: 65%;
+    margin: 0 auto;
+    text-align: left;
+}
+.aboutm p{
+    color: rgb(87, 86, 86);
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: left;
+}
+.project{
+    background-color: #3d3d3d;
+    color: aliceblue;
+}
+.project h2{
+    text-align: center;
+    font-weight: 800;
+    padding-top: 1.2rem;
+}
+.header{
+    background-color: #414141;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 8rem;
+}
+.post-list-item {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.text-muted {
+    color: #6c757d!important;
+}
+.my-1 {
+    margin-top: 0.25rem!important;
+}
+.post-list-meta {
+    font-size: 15px;
+    margin-bottom: 2px;
+    margin-top: -2 px;
+}
+.containe{
+    background-color: #3d3d3d;
+}
+.project hr{
+    background-color: #3a3939;
+    border-color: #3a3939;
+    width: 98%;
+}
+.row{
+    width: 100%;
+}
+.post-list-item > a {
+    color: #6788ff !important;
+    font-size: 2rem !important;
+    font-weight: 700;
+    transition: all 0.25s;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 50%) !important;
+    line-height: 2.1rem;
+}
+i{
+    font-style: italic;
+    color: #6788ff;
+}
+.header p{
+    margin-top: 12px;
+    font-size: 1.3rem;
+}
+article p{
+        width: 98%;
+        color: #ddd !important;
+        font-size: 1.3rem !important;
+        font-weight: 300 !important;
+        line-height: 1.8rem;
+}
+.text-center {
+    text-align: center!important;
+}
+.projectbtn{
+    background-color: #3a3939;
+    padding: 15px;
+    height: 60px;
+    width: 15rem;
+    margin: 0 auto;
+}
+.projectbtn a{
+    font-size: 1.4rem;
+}
+
+/* Contact */
+.contact{
+    background-color: rgb(155, 153, 153);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.contact h2{
+    font-weight: bolder;
+    padding-top: 1.2rem;
+    margin-bottom: 1.4rem;
+}
+.contact p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.contact h3{
+    font-family: 'Vujahday Script', italic;
+    font-weight: 500;
+}
+.contact img{
+    height: 45px;
+    width: 45px;
+    margin-left: 5px;
+}
+.contact h4{
+    color: rgb(17, 17, 17);
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+.contact a img{
+    height: 80px;
+    width: 110px;
+    margin-bottom: 2rem;
+}
+input{
+    background-color: rgb(236, 234, 234);
+    width: 40%;
+    padding: 0.5em 0.5em;
+    font-size: 1.2em;
+    border-radius: 4px;
+    border: 1px solid rgb(119, 118, 118);
+    margin-bottom: 15px;
+}
+button{
+    width: 40%;
+    background-color: #73d67d;
+    color: whitesmoke;
+    border: 1px solid rgb(119, 118, 118);
+}
+button:hover{
+    background-color: #4d9454;
+    cursor: pointer;
+}
+/* Blog */
+.blog{
+    background-color: #414141;
+    color: aliceblue;
+    height: 36rem;
+}
+.blog h1{
+    text-align: center;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    margin-bottom: 2rem;
+}
+.blogm{
+    background-color: #333;
+    padding: 2rem;
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+}
+.blog h2{
+    font-weight: bold;
+}
+.blog p{
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 1030px){
+    .checks{
+        height: 0;
+        width: 0;
+    }
+    .extrahead{
+        height: 0;
+        width: 0;
+        font-size: 0;
+    }
+    .extrahead h4{
+        font-size: 0;
+    }
+    .extraul{
+        font-size: 0;
+    }
+    
+}
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 600px) {
+   .home h1{
+       font-size: 2rem;
+   }
+   .intro{
+       height: 43rem;
+   }
+   .intro p{
+    width: 70%;
+   }
+   .intro h4{
+       padding-top: 11rem;
+    width: 70%;
+   }
+   .dvt{
+       width: 65%;
+   }
+   .sft{
+       width: 65%;
+   }
+   .post-list-item{
+       padding-left: 28px;
+   }
+}
